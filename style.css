@@ -63,7 +63,6 @@ li {
 
 .header-container {
     display: flex;
-    /*width: 1170px;*/
     padding-left: 24px;
     padding-right: 24px;
     margin-left: auto;
@@ -254,4 +253,106 @@ main section {
     left: 15%;
     transform: translate(-50%, -50%);
     z-index: 1;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    font-size: 10.5px;
+    padding-top: 95px;
+    padding-bottom: 90px;
+    font-weight: 300;
+}
+
+.footer-container p {
+    margin-bottom: 28px;
+}
+
+.footer-container strong {
+    font-weight: 500;
+}
+
+.footer-container .pre-titulo {
+    margin-bottom: 25px;
+}
+
+.footer-lateral-izq {
+    width: 20%;
+    text-align: center;
+}
+
+.footer-lateral-izq nav {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-lateral-izq nav li{
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.footer-lateral-izq nav a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 13px;
+    width: 18px;
+    height: 18px;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.footer-central {
+    width: 30%;
+    text-align: center;
+}
+
+.e-mail-contact {
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    border-radius: 20px;
+    border: 1px solid white;
+    position: relative;
+}
+
+.e-mail-contact a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: white;
+    color: rgb(28, 68, 116);
+    font-size: 13px;
+    width: 33px;
+    height: 33px;
+    transform: translate(-100%,-50%);
+    top: 50%;
+    left: 100%;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.input-info {
+    background-color: transparent;
+    width: 100%;
+    padding: 0 17px;
+    border: 0;
+    color: white;
+}
+
+.input-info::placeholder {
+    color: white;
+    font-weight: 500;
+    font-size: 10.5px;
+}
+
+.footer-lateral-der {
+    width: 20%;
+    text-align: center;
 }
