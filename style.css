@@ -1,4 +1,4 @@
-* {
+body {
     font-family: 'Manrope', sans-serif;
 }
 
@@ -31,8 +31,8 @@ h2 {
 
 h3 {
     color: gray;
-    font-size: 12px;
-    font-weight: 500;
+    font-size: 11.5px;
+    font-weight: 600;
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -138,9 +138,14 @@ main section {
     position: relative;
 }
 
+main section  p {
+    line-height: 1.5;
+}
+
 .pre-titulo {
     text-align: center;
     margin-bottom: 15px;
+    letter-spacing: 4px;
 }
 
 .titulo {
@@ -255,24 +260,26 @@ main section {
     z-index: 1;
 }
 
+footer strong {
+    font-weight: 500;
+}
+
 .footer-container {
     display: flex;
     justify-content: center;
     font-size: 10.5px;
     padding-top: 95px;
-    padding-bottom: 90px;
+    padding-bottom: 60px;
     font-weight: 300;
 }
 
 .footer-container p {
+    line-height: 1.2;
     margin-bottom: 28px;
 }
 
-.footer-container strong {
-    font-weight: 500;
-}
-
 .footer-container .pre-titulo {
+    line-height: 1.2;
     margin-bottom: 25px;
 }
 
@@ -355,4 +362,44 @@ main section {
 .footer-lateral-der {
     width: 20%;
     text-align: center;
+}
+
+.sello-container {
+    padding: 24px 0;
+}
+
+.sello {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    margin: 0 auto;
+}
+
+.logo-sello {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: invert(1);
+}
+
+.descripcion-sello {
+    padding-left: 7px;
+}
+
+.titulo-sello {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.subtitulo-sello {
+    font-size: 11.7px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.info-adicional {
+    text-align: center;
+    font-size: 8px;
+    padding-bottom: 30px;
 }
